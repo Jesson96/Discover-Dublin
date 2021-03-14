@@ -3,5 +3,12 @@
 /* General */
 body {
     font-family: "Lato", sans-serif;
-    font-weight: 400;
+}
+
+/*-- Hero-image -- */
+.hero-image {
+    background: url(../images/dublin-liffey.jpg) no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
 }
