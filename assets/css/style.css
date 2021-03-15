@@ -7,7 +7,7 @@ body {
 }
 
 /*-- Hero-image -- */
-.hero-image {
+#hero-image {
     background: url(../images/dublin-liffey.jpg) no-repeat center center;
     background-size: cover;
     padding-top: 20%;
@@ -42,3 +42,9 @@ nav a:hover {
 }
 
 /*-- Media queries */
+@media only screen and (max-width: 600px) {
+    #hero-image {
+        padding-top: 50%;
+        padding-bottom: 50%;
+    }
+}
