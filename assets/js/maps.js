@@ -9,7 +9,7 @@ function initMap() {
 
   
 
-    // Marker locations and affiliated content
+    // Attractions marker locations and affiliated content
     var attractionsMarker = [
         {
             location: {lat: 53.3438,lng: -6.2546},
@@ -32,4 +32,26 @@ function initMap() {
         content: "<h4>Guinness Storehouse</h4><p>Guinness Storehouse is a tourist attraction at St. James's Gate Brewery in Dublin, Ireland. Since opening in 2000, it has received over twenty million visitors.</p>"
     },
     ]
+
+    // outdoor marker locations and affiliated content
+    var outdoorMarker = [
+        {
+            location: {lat: 53.3559,lng: -6.3298},
+            content: "<h4>Phoenix Park</h4><p>The Phoenix Park is the largest enclosed public park in any capital city in Europe.</p>"
+    },
+        {
+            location: {lat: 53.3786,lng: -6.0570},
+            content: "<h4>Howth</h4><p>Great views of the rugged coastline and cliffs, Dublin Bay, Howth Harbour and an almost aerial view of both the Baily Lighthouse and Howth Harbour Lighthouse.</p>"
+    },
+        {
+            location: {lat: 53.3421,lng: -6.1513},
+            content: "<h4>Poolbeg Lighthouse</h4><p>The Poolbeg Lighthouse Walk is a gorgeous coastal walk that’ll blow off the thickest of cobwebs.</p>"
+    },
+        {
+            location: {lat: 53.3699,lng:  -6.2705},
+            content: "<h4>National Botanic Gardens</h4><p>Ireland's premier garden is a green oasis situated in the leafy suburb of Glasnevin, not far from Dublin city centre.  </p>"
+    },
+    ]
 }
+
+
