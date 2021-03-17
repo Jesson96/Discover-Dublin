@@ -6,8 +6,20 @@ function initMap() {
     });
 
    
+    // Variable for markers  
+    var currentMarkers = [];
 
-  
+
+    // Info window variable for markers
+
+    var infoWindow = new google.maps.InfoWindow();
+
+       // function for marker
+    function addMarker(coords) {
+        var marker = new google.maps.Marker({
+            position: coords.location,
+            map: map,
+        });
 
     // Attractions marker locations and affiliated content
     var attractionsMarker = [
@@ -48,10 +60,9 @@ function initMap() {
             content: "<h4>Poolbeg Lighthouse</h4><p>The Poolbeg Lighthouse Walk is a gorgeous coastal walk that’ll blow off the thickest of cobwebs.</p>"
     },
         {
-            location: {lat: 53.3699,lng:  -6.2705},
+            location: {lat: 53.3699,lng: -6.2705},
             content: "<h4>National Botanic Gardens</h4><p>Ireland's premier garden is a green oasis situated in the leafy suburb of Glasnevin, not far from Dublin city centre.  </p>"
     },
     ]
 }
-
-
+}
