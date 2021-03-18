@@ -36,15 +36,15 @@ function initMap() {
         }
         currentMarkers = [];
     }
-    
-   //button click for attractionMarkers
+
+    //button click for attractionMarkers
     $(document).ready(function () {
         $("#attractions").on("click", function () {
             clearMarkers();
             showMarkers(attractionsMarker);
         })
     })
-    
+
     // button click for outDoorMarkers
     $(document).ready(function () {
         $("#outdoors").on("click", function () {
@@ -53,6 +53,13 @@ function initMap() {
         })
     })
 
+    // for loop to show markers on map
+    function showMarkers(markers) {
+        for (i = 0; i < markers.length; i++) {
+            addMarker(markers[i]);
+        }
+        map.setCenter({ lat: 53.350140, lng: -6.266155 });
+    }
 
     // Attractions marker locations and affiliated content
     var attractionsMarker = [
