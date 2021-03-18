@@ -5,7 +5,6 @@ function initMap() {
         center: { lat: 53.350140, lng: -6.266155 },
     });
 
-
     // Variable for markers  
     var currentMarkers = [];
 
@@ -37,6 +36,23 @@ function initMap() {
         }
         currentMarkers = [];
     }
+    
+   //button click for attractionMarkers
+    $(document).ready(function () {
+        $("#attractions").on("click", function () {
+            clearMarkers();
+            showMarkers(attractionsMarker);
+        })
+    })
+    
+    // button click for outDoorMarkers
+    $(document).ready(function () {
+        $("#outdoors").on("click", function () {
+            clearMarkers();
+            showMarkers(outdoorMarker);
+        })
+    })
+
 
     // Attractions marker locations and affiliated content
     var attractionsMarker = [
