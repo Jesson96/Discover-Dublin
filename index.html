@@ -19,13 +19,13 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <div class="collapse navbar-collapse mr-auto" id="navbarNav">
         <ul class="navbar-nav mt-md-0" id="Menu">
           <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse">
-            <a class="nav-link" href="#">City Center Attractions</a>
+            <a class="nav-link" href="attractions">City Center Attractions</a>
           </li>
           <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse">
-            <a class="nav-link" href="#">The Great Outdoors</a>
+            <a class="nav-link" href="outdoors">The Great Outdoors</a>
           </li>
           <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse">
             <a class="nav-link" href="#">Restaurants | Iconic Pubs</a>
@@ -38,7 +38,7 @@
         <div id="hero-image"></div>
     </header>
     <!-- About section -->
-    <section id="about">
+    <section>
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
@@ -55,16 +55,30 @@
    <!-- Maps -->
    <div class="container">
        <div class="row mt-4 mb-4">
-           <div class="col-sm-6">
+           <div id="city" class="col-sm-6">
                 <button id="attractions" type="button" class="btn btn-danger btn-lg btn-block">City Center Attractions</button>
            </div>
-           <div class="col-sm-6">
+           <div id="outdoor" class="col-sm-6">
                 <button id="outdoors" type="button" class="btn btn-danger btn-lg btn-block">The Great Outdoors</button>
            </div>
        </div>
        <div id="map"></div>
    </div>
-
+   <!--Contact form-->
+   <section>
+        <div class="container">
+            <div class="contact">
+                <h1>Contact Us!</h1>
+                <p>Let us know if you have any questions about Dublin!</p>
+            </div>
+        </div>
+        <form>      
+            <input name="name" type="text" class="form-input" placeholder="Name" />   
+            <input name="email" type="text" class="form-input" placeholder="Email" />
+            <textarea name="text" class="form-input" placeholder="Comment"></textarea>
+            <input type="submit" value="SUBMIT"/>
+        </form>
+   </section>
 </body>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
