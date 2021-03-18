@@ -5,6 +5,15 @@
     margin-top: 3rem;
 }
 
+.max-width {
+    width: 100%;
+}
+
+.center-content {
+    display: flex;
+    justify-content: center;
+}
+
 /* General */
 body {
     font-family: "700, Lato", Arial, sans-serif;
@@ -23,7 +32,7 @@ body {
 
 /*-- Hero-image -- */
 #hero-image {
-    background: url(../images/dublin-liffey.jpg) no-repeat center center;
+    background: url(../images/night-dublin.jpg) no-repeat center center;
     background-size: cover;
     padding-top: 20%;
     padding-bottom: 20%;
