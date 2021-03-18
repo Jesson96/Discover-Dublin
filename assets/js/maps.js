@@ -21,8 +21,14 @@ function initMap() {
             map: map,
         });
 
+     // markers pushed to currentMarkers
+        currentMarkers.push(marker);
+
+
+
     // Attractions marker locations and affiliated content
     var attractionsMarker = [
+
         {
             location: {lat: 53.3438,lng: -6.2546},
             content: "<h4>Trinity College Dublin</h4><p>Visit this esteemed research university and the home of the Book of Kells, the sole constituent college of the University of Dublin.</p>"
