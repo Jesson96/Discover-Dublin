@@ -43,7 +43,7 @@ body {
 }
 
 .form-container {
-    max-width: 26.25rem;
+    max-width: 30rem;
     justify-content: center;
     text-align: center;
     margin: 0 auto;
@@ -61,6 +61,23 @@ body {
   margin-bottom: 15px;
   width: 100%;
   opacity: .95;
+}
+
+#contact-button {
+  width: 100%;
+  background:#F76C6C;
+  border-radius:5px;
+  color:white;
+  font-size:20px;
+  padding-top:1rem;
+  padding-bottom:1rem;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+  font-weight:400;
+}
+
+#contact-button:hover {
+    background-color: #cc5050;
 }
 
 /*--- navbar ---- */
