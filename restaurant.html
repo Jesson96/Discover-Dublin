@@ -12,7 +12,20 @@
 </head>
 
 <body>
-    <!-- Navbar -->
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <title>Discover Dublin</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+
+<body>
+      <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
       <a class="navbar-brand" href="#">Discover Dublin</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,54 +46,23 @@
         </ul>
       </div>
     </nav>
-    <!-- hero-image -->
-    <header>
-        <div id="hero-image"></div>
-    </header>
-    <!-- About section -->
-    <section>
+    <!--city center attraction information-->
+     <section>
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <h2 class="heading"><span class="content-border-style"><i class="fas fa-info-circle"></i>About Dublin</span></h2>
-                    <p>Dublin, the capital city of Ireland is situated on a bay on the east coast, at the mouth of the River Liffey, it lies within the province of Leinster. It is bordered on the south by the Dublin Mountains, a part of the Wicklow Mountains range. Dublin is booming with tech giants calling the Docklands home and new hotels, pubs and restaurants sprouting throughout the city. Despite all the busynesss, Dublin retains its village-like charms, with historic neighborhoods reminders of gentler, slower-moving times. Whether you like your city breaks with a modern sheen or with an other-era luster, Dublin has something for you.  You’ll never run out of things to do and see in Dublin City – there’s just so much happening all year round. </p>
-                    <p>Upon your visit, we implore you to discover Dublin culture, from the famous Guinness Storehouse to St. Patrick's Cathedral, you can take a walk back in time to learn about Irish heritage and events that have shaped Dublin's history. 
-                        Many attractions around the city offer self-guided tours and guided programmes for visitors to learn about the rich history and legends of the site. 
-                        Many also host annual events, festivals, and other activities each season for a richer cultural experience.
-                        </p>
+                    <h2 class="heading"><span class="content-border-style"><i class="fas fa-info-circle"></i>City Center Attractions</span></h2>
                 </div>
             </div>
         </div>
     </section>
-   <!-- Maps -->
-   <div class="container">
-       <div class="row mt-4 mb-4">
-           <div id="city" class="col-sm-6">
-                <button id="attractions" type="button" class="btn btn-danger btn-lg btn-block">City Center Attractions</button>
-           </div>
-           <div id="outdoor" class="col-sm-6">
-                <button id="outdoors" type="button" class="btn btn-danger btn-lg btn-block">The Great Outdoors</button>
-           </div>
-       </div>
-       <div id="map"></div>
-   </div>
-   <!--Contact form-->
-   <section>
-        <div class="">
-            <div class="contact">
-                <h1><span class="content-border-style mx-4">Contact Us!</span></h1>
-                <p>Let us know if you have any questions about Dublin!</p>
-            </div>
-        </div>
-        <div class="form-container">
-            <form>      
-                <input name="name" type="text" class="form-input" placeholder="Name" />   
-                <input name="email" type="text" class="form-input" placeholder="Email" />
-                <textarea name="text" class="form-input" placeholder="Enter your message here.."></textarea>
-                <input id= "contact-button" type="submit" value="Submit"/>
-            </form>
-        </div>
-   </section>
+</body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="assets/js/maps.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD4Cv-K3Rbf6wNdZS1pnvjfmUzUAegVDO8&callback=initMap" type="text/javascript"></script>
+</html>
 </body>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
