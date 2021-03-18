@@ -30,6 +30,14 @@ function initMap() {
         });
     }
 
+    // clear markers
+    function clearMarkers() {
+        for (let i = 0; i < currentMarkers.length; i++) {
+            currentMarkers[i].setMap(null);
+        }
+        currentMarkers = [];
+    }
+
     // Attractions marker locations and affiliated content
     var attractionsMarker = [
         {
@@ -54,7 +62,7 @@ function initMap() {
         },
     ]
 
-    // outdoor marker locations and affiliated content
+    // Outdoor marker locations and affiliated content
     var outdoorMarker = [
         {
             location: { lat: 53.3559, lng: -6.3298 },
