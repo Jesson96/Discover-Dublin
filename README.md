@@ -1,5 +1,8 @@
 <h1 align="center">Discover Dublin</h1>
 
+[View the live project here.](https://jesson96.github.io/Discover-Dublin/).
+
+
 <p>This is an interactive website regarding tourist information about the County Dublin, in Ireland. 
 The start of this website begins with three sliding images of Dublin city center. 
 As the user scrolls down the page, they are greeted with a brief introduction of the city of Dublin, 
