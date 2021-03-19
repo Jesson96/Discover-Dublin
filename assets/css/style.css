@@ -16,8 +16,8 @@
 
 /* General */
 body {
-    font-family: "700, Lato", Arial, sans-serif;
-    background-color: #A8D0E6;
+    font-family: "Lato", Arial, sans-serif;
+    margin: 0;
 }
 
 .btn-lg {
