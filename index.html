@@ -249,9 +249,9 @@
             </div>
             <div class="form-container">
                 <form onsubmit="return sendMail(this);">
-                    <input name="name" type="text" class="form-input" placeholder="Name" />
-                    <input name="emailaddress" type="text" class="form-input" placeholder="Email" />
-                    <textarea name="text" class="form-input" placeholder="Enter your message here.."></textarea>
+                    <input name="name" type="text" class="form-input" placeholder="Name" required />
+                    <input name="emailaddress" type="email" class="form-input" placeholder="Email" required/>
+                    <textarea name="text" minlength="5" maxlength="500" class="form-input" placeholder="Enter your message here.." required></textarea>
                     <input id="contact-button" type="submit" value="Submit" />
                 </form>
             </div>
