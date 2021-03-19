@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 
 /* Attractions */
 .margin-top {
@@ -16,7 +16,7 @@
 
 /* General */
 body {
-    font-family: "Lato", Arial, sans-serif;
+    font-family: "400 Lato", Arial, sans-serif;
     margin: 0;
 }
 
@@ -78,7 +78,7 @@ body {
 }
 
 #contact-button {
-  width: 100%;
+  width: 50%;
   background:#F76C6C;
   border-radius:5px;
   color:white;
@@ -87,7 +87,6 @@ body {
   padding-bottom:1rem;
   margin-top: .5rem;
   margin-bottom: .5rem;
-  font-weight:400;
 }
 
 #contact-button:hover {
@@ -138,5 +137,18 @@ nav a:hover {
 @media only screen and (max-width: 667px) {
     .resize-font {
         font-size: 1.5rem;
+    }
+}
+
+/* media query for button margin-top on google maps */
+@media only screen and (max-width: 576px) {
+    #outdoors {
+        margin-top: 0.5rem;
+    }
+}
+
+@media (max-width: 1154px) {
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-size: .80rem;
     }
 }
