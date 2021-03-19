@@ -57,13 +57,7 @@ The imagery on the site is important. The site will include  a main hero image w
 * Mobile Wireframe - [View](wireframes/mobile-wireframe.pdf)
 
 ### Features 
-* The hero image in the header allows users to know the image of the band and who they are.
-* The about page gives a summary of the band with a modal included where viewers can click and read more information about the band if they wish.
-* The music section includes a background image of a live concert with the bands music embedded. This section allows the band to showcase their album as well as three popular singles they have released. 
-* The video section allows users to view the bands music videos on the site via YouTube.
-* The tour section informs the user of when new events or shows are scheduled. Unfortunately they have no shows booked due to Covid19 so I added some fictitous shows via Livestream on Youtube and a red banner to let the user know no live shows will be happening until restrictions are lifted.
-* An enquire modal will also be included for potential customers to book the band for live events in the future.
-* The footer will include a newsletter and social icons to keep users updated on new information and increase the bands following.
+*
 * The website is responsive on all device sizes.
 
 ### Features to be implemented
