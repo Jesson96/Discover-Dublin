@@ -49,6 +49,13 @@ body {
     opacity: .95;
 }
 
+/*-- Carousel Img --*/
+.carousel-item src {
+    max-width: fit-content;
+    max-height: fit-content;
+}
+
+
 /*-- Contact Us/ Form --*/
 .contact {
     text-align: center;
