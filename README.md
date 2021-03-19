@@ -120,4 +120,4 @@ The pictures used in this site were obtained from [Pixabay](https://pixabay.com/
 
 ###  Acknowledgments
 
-[Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/?originalSubdomain=ng) I'd like to thank Precious for the outstanding mentor guidance and support.
+[Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/?originalSubdomain=ng) I'd like to thank Precious for the outstanding mentor guidance and support as well as svickery(github name) for the inspiration to do a travel website.
