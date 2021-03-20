@@ -1,5 +1,7 @@
 <h1 align="center">Discover Dublin</h1>
 
+![Discover-Dublin](readme.MD-files/responsive.PNG)
+
 [View the live project here.](https://jesson96.github.io/Discover-Dublin/).
 
 

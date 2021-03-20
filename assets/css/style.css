@@ -170,3 +170,20 @@ nav a:hover {
     font-size: 8px;
   }
 }
+
+@media only screen and (max-width: 996px) {
+  .carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
+} 
+    .carousel-inner{
+overflow: visible;
+    }
+}
+
+@media only screen and (min-width: 996px) {
+    .carousel-item {
+        display: none;
+    }
+}
