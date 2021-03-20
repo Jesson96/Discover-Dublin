@@ -346,10 +346,19 @@
     <section id="activities">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 ">
+                <div class="col-sm-12">
                     <h2 class="heading resize-font"><span class="content-border-style"><i
                                 class="fas fa-info-circle"></i>Outdoor Activities</span></h2>
                 </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="d-flex justify-content-center">
+                        <span id="weather-temp"></span>
+                        <span id="weather-icon"></span>
+                        <span style="margin-right:10px" onclick="refreshWeather();"><i class="fas fa-redo"></i></span>
+                    </div>
+                </div>    
             </div>
         </div>
         <!-- Carousel for outdoor activities-->
@@ -445,6 +454,7 @@
         integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
         crossorigin="anonymous"></script>
     <script src="assets/js/maps.js"></script>
+    <script src="assets/js/weather.js"></script>
     <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD4Cv-K3Rbf6wNdZS1pnvjfmUzUAegVDO8&callback=initMap">
     </script>
