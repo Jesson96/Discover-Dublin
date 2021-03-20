@@ -64,6 +64,8 @@ The imagery on the site is important. The site will include  a main hero image w
 
 ### Features 
 * The website is responsive on all device sizes.
+* The website is interactive and allows users to click butons to recieve their desired outcome, submit any queries they may have or view certain places, things to do or images they may be interested in.
+
 
 ### Features to be implemented
 * In the future, this site should implement the Google Maps radius feature that fetches potential things for a user to visit or do while they are in Dublin giving the users current location.
@@ -88,7 +90,7 @@ The imagery on the site is important. The site will include  a main hero image w
 - [CSStricks] (https://css-tricks.com/fluid-width-video/) -
 - [Traversy Media] (https://www.youtube.com/watch?v=Zxf1mnP5zcw)
 - [Wikipedia] - for most content about Dublin.
--
+- [codepen] - (https://codepen.io/jesson96/pen/WNoqwbq) - gave me the inspiration for my form. Edited to suit this website.
 
 ## Testing
 
@@ -122,8 +124,7 @@ To clone this project from GitHub:
 ## Credits
 
 ### Content 
-
-
+Some of the text I got for the about me page is from wikipedia and was edited and restructured by me to suit the site. Other information for the carousels was gotten from wikipedia, the shelbourne website (https://www.theshelbourne.com/) and the visit dublin website (https://www.visitdublin.com/).
 
 ###  Media
 
