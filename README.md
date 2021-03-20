@@ -91,6 +91,9 @@ The imagery on the site is important. The site will include  a main hero image w
 - [Traversy Media] (https://www.youtube.com/watch?v=Zxf1mnP5zcw)
 - [Wikipedia] - for most content about Dublin.
 - [codepen] - (https://codepen.io/jesson96/pen/WNoqwbq) - gave me the inspiration for my form. Edited to suit this website.
+- [emailJS API] - (https://www.emailjs.com/) - used to submit the contact form.
+- [Open Weather API] - (https://openweathermap.org/) - used to display weather information above the outdoor activites carousel.
+- [Google Maps API] - (https://developers.google.com/maps/documentation/javascript/overview) - used to display location pin drops and content about certain attractions around the city.
 
 ## Testing
 
