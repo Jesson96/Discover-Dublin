@@ -6,12 +6,14 @@
 
 
 <p>This is an interactive website regarding tourist information about the County Dublin, in Ireland. 
-The start of this website begins with three sliding images of Dublin city center. 
+The start of this website begins with an image of Dublin city center. 
 As the user scrolls down the page, they are greeted with a brief introduction of the city of Dublin, 
 followed by two clickable buttons which highlight markers on the Javascript Google maps API 
 of tourist attractions and outdoor activites that users may be interested in upon visiting the county of Dublin. 
-Underneath the Google Maps API is followed by an emailJS API that is used for users who have queries about site information.
-The user can then access the fixed navigation bar to choose a section of interest to them from attractions, outdoor activites, 
+Underneath the Google Maps API is followed by a carousel of city center attractions, an accordion of restaurant 
+and pubs and then another carousel of outdoor activites to do in Dublin. 
+Lastly an emailJS API is used for users who have queries about site information.
+The user can also access the fixed navigation bar to choose a section of interest to them from attractions, outdoor activites, 
 restaurants and good pubs to visit in Dublin.</p>
 
 ## User Experience (UX)
@@ -44,13 +46,15 @@ great pubs to visit while in Dublin. This website will be beneficial to the user
 ### Design
 
 #### Colour Scheme
-* 
+* The two main colours used are white, dark grey, red because it makes content easily readable because of contrasting colours and allows users to understand where a section starts and ends.
 
 #### Typography
-* The two main fonts chosen for the website are 
+* The two main fonts chosen for the website are Lato and Sans-seriff.
 
 #### Imagery
-The imagery on the site is important. The site will include  a main hero image which is designed to catch the user's attention and will change every 10 seconds 3 times and loop back to the original.
+The imagery on the site is important. The site will include  a main hero image which is designed to catch the user's
+ attention and entice a user to continue to scroll down the page or use the navigation bar to choose the content they are looking for.
+ The carousels also contain 10 high definition photos to entice users to do certain activities or visit certain places.
 
 ### Wireframes
 
@@ -59,11 +63,11 @@ The imagery on the site is important. The site will include  a main hero image w
 * Mobile Wireframe - [View](wireframes/mobile-wireframe.pdf)
 
 ### Features 
-*
 * The website is responsive on all device sizes.
 
 ### Features to be implemented
-* 
+* In the future, this site should implement the Google Maps radius feature that fetches potential things for a user to visit or do while they are in Dublin giving the users current location.
+* A gallery should be included with further images of the city of Dublin.
 
 ##  Technologies used
 
@@ -82,6 +86,9 @@ The imagery on the site is important. The site will include  a main hero image w
 - [Stackoverflow] (https://stackoverflow.com/) - 
 - [AmIResponsive] (http://ami.responsivedesign.is/) - 
 - [CSStricks] (https://css-tricks.com/fluid-width-video/) -
+- [Traversy Media] (https://www.youtube.com/watch?v=Zxf1mnP5zcw)
+- [Wikipedia] - for most content about Dublin.
+-
 
 ## Testing
 
@@ -116,10 +123,12 @@ To clone this project from GitHub:
 
 ### Content 
 
+
+
 ###  Media
 
 The pictures used in this site were obtained from [Pixabay](https://pixabay.com/) and [Freepik](https://www.freepik.es/) as recommended by my mentor as a good source of images.  
 
 ###  Acknowledgments
 
-[Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/?originalSubdomain=ng) I'd like to thank Precious for the outstanding mentor guidance and support as well as svickery(github name) for the inspiration to do a travel website.
+[Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/?originalSubdomain=ng) I'd like to thank Precious for the outstanding mentor guidance and support as well as SVickery(github name) for the inspiration to do a travel website upon seeing his own work.
