@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 
-.card-header{
-    background-color: #f5f5dc;
-}
-
 /* Attractions */
 .margin-top {
     margin-top: 3rem;
@@ -19,8 +15,13 @@
 }
 
 /* Carousel */
+#headingOne {
+    background-color: #f9e4e7;
+}
 
-
+#headingTwo {
+    background-color: #f9e4e7;
+}
 /* General */
 body {
     font-family: "400 Lato", Arial, sans-serif;
@@ -55,13 +56,6 @@ body {
     padding-top: 20%;
     padding-bottom: 20%;
 }
-
-/*-- Carousel Img --*/
-.carousel-item src {
-    max-width: fit-content;
-    max-height: fit-content;
-}
-
 
 /*-- Contact Us/ Form --*/
 .contact {
@@ -171,6 +165,7 @@ nav a:hover {
   }
 }
 
+/*
 @media only screen and (max-width: 996px) {
   .carousel-caption {
     position: relative;
@@ -186,4 +181,4 @@ overflow: visible;
     .carousel-item {
         display: none;
     }
-}
+} */

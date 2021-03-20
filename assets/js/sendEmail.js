@@ -12,7 +12,7 @@ function sendMail(contactForm) {
                     alert('Oops, there was a problem sending your message. Please try again!');
             }, function () {
                 alert('Sorry there was a problem. Please try again!');
-                document.getElementsByID('myForm').reset();
+                document.getElementsByID('myForm').reset(); // this line still not working, try again later
             });
     return false;
 }
