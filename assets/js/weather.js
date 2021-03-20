@@ -1,9 +1,9 @@
+// https://bithacker.dev/fetch-weather-openweathermap-api-javascript - code that helped with weather API
 function weatherBalloon( cityID ) {
     var key = 'e33520267233b063fa7fb34f23828f0f';
     fetch(' https://api.openweathermap.org/data/2.5/weather?id=' + cityID+ '&appid=' + key)  
         .then(function(resp) { return resp.json() }) // Convert data to json
         .then(function(data) {
-            console.log(data);
             drawWeather(data);
     })
     .catch(function() {
@@ -21,7 +21,7 @@ function refreshWeather(){
 
 function drawWeather( weatherData ) {
     var celcius = Math.round(parseFloat(weatherData.main.temp)-273.15);
-    
+
     switch (weatherData.weather[0].description){
         case "clear sky":
             document.getElementById('weather-icon').innerHTML = '<i class="fas fa-sun"></i>';
