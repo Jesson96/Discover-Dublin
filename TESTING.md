@@ -4,9 +4,9 @@
 
 * [HTML Validator](https://validator.w3.org/) -  HTML validator found 5 errors mostly to do with script tags.
 
-![validator](readme.MD-files/html validator.PNG) - removed type=text/javascript got rid of three errors, adding a h2 to the google maps section got rid of third error and moving a script from the top of the page to the bottom of the body got rid of the last error.
+* !(readme.MD-files/html-validator.PNG) - removed type=text/javascript got rid of three errors, adding a h2 to the google maps section got rid of third error and moving a script from the top of the page to the bottom of the body got rid of the last error.
 
-![validator no errors](readme.MD-files/html validator no errors.PNG) - all errors have been fixed.
+* !(readme.MD-files/validatornoerrors.PNG) - all errors have been fixed.
 
 
 * [CSS Validator](https://jigsaw.w3.org/css-validator/) 
@@ -54,8 +54,6 @@
 ## Browser Compatibility
 
 * [PowerMapper](https://try.powermapper.com/demo/Report/679c61f5-609e-4ae8-b8be-56050f6afbf2) * Powermapper stated that it is compatiable on all devices.
-
-![Compatibility](readme-files/compatibilitycheck.png)
 
 ## Bugs 
 
