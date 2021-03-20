@@ -22,6 +22,13 @@
 #headingTwo {
     background-color: #f9e4e7;
 }
+
+.block-under-image {
+    background-color: white;
+    margin-top: 2rem;
+    height: 9em;
+}
+
 /* General */
 body {
     font-family: "400 Lato", Arial, sans-serif;
@@ -162,6 +169,26 @@ nav a:hover {
 @media only screen and (max-width: 440px) {
   table {
     font-size: 8px;
+  }
+}
+
+
+/* -- Media query for carousel-- */
+@media only screen and (max-width: 767px) {
+  .block-under-image {
+    margin-top: 3rem;
+  }
+}
+
+@media only screen and (max-width: 483px) {
+  .block-under-image {
+    margin-top: 4rem;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .block-under-image {
+    margin-top: 5rem;
   }
 }
 
