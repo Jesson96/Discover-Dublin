@@ -18,6 +18,9 @@
     justify-content: center;
 }
 
+/* Carousel */
+
+
 /* General */
 body {
     font-family: "400 Lato", Arial, sans-serif;
@@ -34,15 +37,7 @@ body {
     margin-bottom: 1.6rem;
 }
 
-/*-- Hero-image -- */
-#hero-image {
-    background: url(../images/dublin-liffey.jpg) no-repeat center center;
-    background-size: cover;
-    padding-top: 20%;
-    padding-bottom: 20%;
-}
-
-/*-- About-heaidng--*/
+        /*-- generic-heading--*/
 .content-border-style {
     position:relative;
     border:1px solid #000000;
@@ -51,6 +46,14 @@ body {
     border-radius: 5px;
     box-shadow: 3px 3px black;
     opacity: .95;
+}
+
+/*-- Hero-image -- */
+#hero-image {
+    background: url(../images/dublin-liffey.jpg) no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
 }
 
 /*-- Carousel Img --*/
