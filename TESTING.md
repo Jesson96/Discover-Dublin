@@ -4,9 +4,9 @@
 
 * [HTML Validator](https://validator.w3.org/) -  HTML validator found 5 errors mostly to do with script tags.
 
-!(readme.MD-files/html validator.PNG) - removed type=text/javascript got rid of three errors, adding a h2 to the google maps section got rid of third error and moving a script from the top of the page to the bottom of the body got rid of the last error.
+![validator](readme.MD-files/html validator.PNG) - removed type=text/javascript got rid of three errors, adding a h2 to the google maps section got rid of third error and moving a script from the top of the page to the bottom of the body got rid of the last error.
 
-!(readme.MD-files/html validator no errors.PNG) - all errors have been fixed.
+![validator no errors](readme.MD-files/html validator no errors.PNG) - all errors have been fixed.
 
 
 * [CSS Validator](https://jigsaw.w3.org/css-validator/) 
