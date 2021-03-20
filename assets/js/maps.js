@@ -77,7 +77,7 @@ function initMap() {
         },
         {
             location: { lat: 53.3449, lng: -6.2675 },
-            content: "<h4>Temple Bar</h4><p> It is promoted as Dublin's 'cultural quarter' and, as a centre of Dublin's city centre's nightlife, is a tourist destination.</p><h6>Address</h6><p>Temple Bar, Dublin</p>
+            content: "<h4>Temple Bar</h4><p> It is promoted as Dublin's 'cultural quarter' and, as a centre of Dublin's city centre's nightlife, is a tourist destination.</p><h6>Address</h6><p>Temple Bar, Dublin</p>"
         },
         {
             location: { lat: 53.33833198, lng: -6.285498858 },
