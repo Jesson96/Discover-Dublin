@@ -4,12 +4,12 @@
 
 * [HTML Validator](https://validator.w3.org/) -  HTML validator found 5 errors mostly to do with script tags.
 
-* ![CSS Validator](readme-files/html-validator.PNG) - removed type=text/javascript got rid of three errors, adding a h2 to the google maps section got rid of third error and moving a script from the top of the page to the bottom of the body got rid of the last error.
+* ![CSS Validator](readme-files/html-validator.PNG) - I removed "type=text/javascript" and got rid of three errors, adding a h2 to the google maps section got rid of one more error and moving a script from the top of the page to the bottom of the body got rid of the last error.
 
 * ![CSS Validator](readme-files/validatornoerrors.PNG) - all errors have been fixed.
 
 
-* [CSS Validator](https://jigsaw.w3.org/css-validator/) - Css validator found 2 errors on bootstrap that I'm unable to fix because it is an external framework.
+* [CSS Validator](https://jigsaw.w3.org/css-validator/) - CSS validator found 2 errors on bootstrap that I'm unable to fix because it is an external framework.
 
 * ![CSS Validator](readme-files/css-validator.PNG)
 
