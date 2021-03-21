@@ -4,17 +4,22 @@
 
 * [HTML Validator](https://validator.w3.org/) -  HTML validator found 5 errors mostly to do with script tags.
 
-* !(readme-files/validatornoerrors.PNG) - removed type=text/javascript got rid of three errors, adding a h2 to the google maps section got rid of third error and moving a script from the top of the page to the bottom of the body got rid of the last error.
+* ![CSS Validator](readme-files/html-validator.PNG) - removed type=text/javascript got rid of three errors, adding a h2 to the google maps section got rid of third error and moving a script from the top of the page to the bottom of the body got rid of the last error.
 
-* !(readme.MD-files/validatornoerrors.PNG) - all errors have been fixed.
+* ![CSS Validator](readme-files/validatornoerrors.PNG) - all errors have been fixed.
 
 
-* [CSS Validator](https://jigsaw.w3.org/css-validator/) 
+* [CSS Validator](https://jigsaw.w3.org/css-validator/) - Css validator found 2 errors on bootstrap that I'm unable to fix because it is an external framework.
 
-* CSS validator test did not find any errors.
+* ![CSS Validator](readme-files/css-validator.PNG)
 
-![CSS Validator](readme-files/cssvalidator.PNG)
+#### Lighthouse Google Developer Tools
 
+* Lighthouse Desktop
+* ![Lighthouse Desktop](readme-files/desktop-report.PNG)
+* Lighthouse Mobile
+* ![Lighthouse Mobile](readme-files/mobile-report.PNG)
+ 
 ## Testing User stories
 
 #### First Time Visitor Goals
@@ -51,7 +56,7 @@
 
 * To test the responsiveness of the site I used [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) on a number of devices and I also further checked responsivenss on [Responsive Design Checker](https://www.responsivedesignchecker.com/). 
 
-## Browser Compatibility
+## Bugs
 
-* [PowerMapper](https://try.powermapper.com/demo/Report/679c61f5-609e-4ae8-b8be-56050f6afbf2) * Powermapper stated that it is compatiable on all devices.
-
+* Carousel text content is not consistently in the same position on small devices and some medium devices.
+* The weather API could be ambigous to the user because of it's size and limited capability.
