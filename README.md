@@ -1,6 +1,6 @@
 <h1 align="center">Discover Dublin</h1>
 
-![Discover-Dublin](readme.MD-files/responsive.PNG)
+![Discover-Dublin](readme-files/responsive.PNG)
 
 [View the live project here.](https://jesson96.github.io/Discover-Dublin/).
 
@@ -65,7 +65,7 @@ The imagery on the site is important. The site will include  a main hero image w
 ### Features 
 * The website is responsive on all device sizes.
 * The website is interactive and allows users to click butons to recieve their desired outcome, submit any queries they may have or view certain places, things to do or images they may be interested in.
-
+* Implement weather forecast over several days and style the weather icons to be more visually appealing. The site owner could not do this due to time constraints.
 
 ### Features to be implemented
 * In the future, this site should implement the Google Maps radius feature that fetches potential things for a user to visit or do while they are in Dublin giving the users current location.
@@ -127,7 +127,7 @@ To clone this project from GitHub:
 ## Credits
 
 ### Content 
-Some of the text I got for the about me page is from wikipedia and was edited and restructured by me to suit the site. Other information for the carousels was gotten from wikipedia, the shelbourne website (https://www.theshelbourne.com/) and the visit dublin website (https://www.visitdublin.com/).
+Some of the text I got for the about me page is from wikipedia and was edited and restructured by me to suit the site. Other information for the carousels was gotten from wikipedia, the shelbourne website [shelbourne](https://www.theshelbourne.com/) and the visit dublin website [Visit Dublin](https://www.visitdublin.com/).
 
 ###  Media
 

@@ -15,9 +15,9 @@
 
 #### Lighthouse Google Developer Tools
 
-* Lighthouse Desktop
+* Lighthouse Desktop performance = 97/100
 * ![Lighthouse Desktop](readme-files/desktop-report.PNG)
-* Lighthouse Mobile
+* Lighthouse Mobile performance = 62/100
 * ![Lighthouse Mobile](readme-files/mobile-report.PNG)
  
 ## Testing User stories
@@ -25,7 +25,7 @@
 #### First Time Visitor Goals
 
 1. As a first time user, I want readily available content about Dublin that is correct and accurate.
-    * As a user first enters the site they will be greeted by a navigation bar, a hero-image and an accurate about Dublin section with readily available content on the google maps API for users to click on for their desired information.
+    * As a user first enters the site they will be greeted by a navigation bar, a hero-image and an accurate about Dublin section with readily available content on the google maps API for users to click on for their desired content/information.
 
 2. As a first time user, I want to be able to access location information of potential places/things to do in Dublin without leaving the website.
     * As the user first enters the website, they can scroll down or click on the maps list item in the nav bar to access location information of potential places/things to do in Dublin without leaving the website.
